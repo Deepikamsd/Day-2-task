@@ -1,0 +1,23 @@
+Write the blog on the difference between document and window Objects
+
+Document Object:
+
+1)Represents the HTML document loaded in the browser window.
+2)Operates within the context of the loaded HTML document.
+3)Deals with the hierarchical structure of the document, including elements like '<html>', '<head>', and '<body>'.
+4)Provides methods to access and manipulate DOM elements within the document, such as 'getElementById()' and 'querySelector()'.
+5)Facilitates content manipulation by dynamically creating, modifying, or removing elements and content.
+6)Handles events related to user interactions or document loading, such as 'DOMContentLoaded' or 'load'.
+
+Window Object:
+
+1)Represents the browser window containing the DOM document.
+2)Serves as the global execution context for JavaScript code in the browser.
+3)Deals with browser-related functionalities and properties, including navigation, timers, and window dimensions.
+4)Provides access to methods like 'window.open()' for opening new browser windows.
+5)Contains properties for accessing information about the window's size and position, such as 'window.innerWidth' and 'window.scrollY'.
+6)Facilitates cross-origin communication between windows or frames using methods like 'postMessage()'.
+
+
+
+ 
